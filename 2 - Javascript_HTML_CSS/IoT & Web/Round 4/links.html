@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+    Week 11, task 1: Links page
+    Juha Savikko
+-->
+<html>
+<html>
+  <head>
+    <title>Week 11, task 1: Links Page</title>
+    <!-- meta charset tag fixes "ääkköset" not working on remote server.-->
+    <meta charset="UTF-8" />
+    <!-- link the Bootstrap CSS:-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      intsegrity="ha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <!-- link our own custom css (overwrites bootstrap)-->
+    <link rel="stylesheet" href="main.css" />
+    <style>
+    li { 
+      list-style: none; 
+      margin-top: 0.2rem;
+    }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar begins -->
+    <!-- NOTE TO STUDENT: This section of the page (navbar) has to stay the same
+        between all pages. So if you want to edit the navbar, remember to
+        make the same edits between all subpages. -->
+    <nav class="navbar navbar-dark bg-primary navbar-expand-sm">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">Home</a>
+        <ul class="navbar-nav me-auto my-2">
+          <li class="nav-item">
+            <a class="nav-link" href="/about-me.html">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/my-schedule.html">My Schedule</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/links.html">Links</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Navbar ends -->
+
+    <!-- Page content begins -->
+    <!-- NOTE TO STUDENT: This section contains the actual content of the 
+        page; other sections beside this (not counting "link scripts") 
+        should stay be identical between subpages. -->
+    <div class="container-sm">
+      <ul>
+        <li><a href="https://gitlab.tamk.cloud/">TITE GitLab</a></li>
+        <li><a href="https://moodle.tuni.fi/my/">TUNI Moodle/Etusivu</a></li>
+        <li><a href="https://moodle.tuni.fi/course/view.php?id=16081">TUNI Moodle/IoT ja Web-ohjelmointi</a></li>
+
+        <li><a href="https://stackoverflow.com/">Stackoverflow</a></li>
+        <li><a href="https://www.youtube.com/watch?v=ABtOAbYgKP4&list=PLHRfWmB-cTz_e43yj1muHtX6VUnDE62cW">Music</a></li>
+        <li><a href="https://campusonline.fi/opintojaksot/page/2/?free-text&ects-min&ects-max&field%5B8%5D=Tekniikan%20ja%20liikenteenala#038;ects-min&ects-max&field%5B8%5D=Tekniikan+ja+liikenteenala">Campusonline</a></li>
+        
+
+      </ul>
+    </div>
+    <!-- Page content ends -->
+
+    <!-- Link scripts-->
+    <!-- NOTE TO STUDENT: This section should always contain "script.js"
+        which is common script file for all subpages. Besides that,
+        if a subpage requires special code not found on other subpages,
+        a new .js -file should be created and linked here on the specific 
+        subpage. -->
+    <script src="script.js"></script>
+  </body>
+</html>

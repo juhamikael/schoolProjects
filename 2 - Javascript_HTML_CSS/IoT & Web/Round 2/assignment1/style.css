@@ -1,0 +1,68 @@
+body {
+  text-align: center;
+  /*background-color: #0f0919;*/
+  background-color: rgb(59, 58, 73);
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+.header {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+div.header {
+  font-size: 5em;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+  height: 1em;
+}
+p#header {
+  margin-top: 0em;
+  font-size: 1.5em;
+  margin-right: 5em;
+  height: 2em;
+}
+p.viiva {
+  margin-top: -1.5em;
+  border-bottom: 0.25em solid #fff;
+}
+textarea {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 1.2em;
+}
+#typistysbtn {
+  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+  border-radius: 6px;
+  size: 30px;
+  padding: 1em 2em;
+  color: #fff;
+  background-color: #0f0919;
+  font-size: 0.9em;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+#typistysbtn:hover {
+  background-color: #fff;
+  color: #0f0919;
+}
+#typistettyTxt {
+  margin-top: -2em;
+  font-size: 1em;
+  border-top: 0.1em;
+  border-bottom: 0.1em;
+  border-right: 0.1em;
+  border-left: 0.1em;
+  border-radius: 0.5em;
+  margin-left: 32em;
+  margin-right: 32em;
+  overflow: auto;
+  height: auto;
+  overflow-wrap: break-word;
+  background-color: #fff;
+  color:#333;
+}

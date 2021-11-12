@@ -1,0 +1,26 @@
+
+.bg-primary{
+    background-color: #303030!important;
+  }
+.container-sm{
+  margin-top:2rem;
+  margin-left:2rem;
+}
+.tiedot{
+  width: 200px;
+}
+.time{
+  border-right: .5px solid #dee2e6;
+}
+
+.kielet{
+  width: 200px;
+}
+#perustiedot{
+  margin-right: 3rem!important;
+}
+#teksti{
+  margin-top: 3rem;
+  margin-right: 2rem;
+}
+

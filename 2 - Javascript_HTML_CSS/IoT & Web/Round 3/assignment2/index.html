@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <h1>Covid-19 Data</h1>
+
+      <p id="country"> </p>
+      
+        <form id="dropdownForm">
+          <select name="dropDownItems">
+            <option value="fi">Finland</option>
+            <option value="is">Iceland</option>
+            <option value="no">Norway</option>
+            <option value="se">Sweden</option>
+            <option value="dk">Denmark</option>
+          </select>
+          <button id="selectbtn" type="button" class="main">Select</button>
+          <br />
+        </form>
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Date</th>
+            <th>Confirmed</th>
+            <th>Recovered</th>
+            <th>Deaths</th>
+          </tr>
+        </thead>
+        <tbody id="tablebody"></tbody>
+      </table>
+    </div>
+
+    <!-- Link scripts-->
+    <script src="script.js"></script>
+  </body>
+</html>
