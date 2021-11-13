@@ -1,7 +1,6 @@
 # Hotellihuoneen varausohjelma (5p)
 
 ## 1 pisteen (ykkösen) ohjelma:
----
 - Hotellissa on *n* huonetta, numerot *1-n*. 
 - Huoneiden lukumäärä määritetään ohjelmaan vakiona. 
 - Käyttäjä varaa huoneen valiten itse huoneen numeron. 
@@ -10,12 +9,10 @@
 - Ohjelma on valmis varaamaan huoneita niin kauan kuin käyttäjä haluaa, kuitenkin enintään *n* huonetta. Tässä riittää, kun syötteen tarkistuksessa tarkistetaan, että se on luku välillä 1-n.
 
 ## 2-3 pisteen (kakkosen-kolmosen) ohjelma:
----
 - Kuten edellinen, mutta ohjelma arpoo aluksi huoneiden kokonaismäärän väliltä 30-70 ja hinnan yöltä väliltä 80-100 euroa. 
 - Ohjelma arpoo huoneen numeron vapaana olevista huoneista. Ohjelmassa on muodostettu ainakin yksi aliohjelma.  (2-3 p sen mukaan, miten hyvin ohjelma toimii ja lisäyksissä on onnistuttu.) Syötteen tarkistus kattaa myös ei-numerot.
 
 ## 4-5 pisteen (nelosen-vitosen) ohjelma:
----
 - Kuten edellä, mutta huoneita on parillinen määrä välillä 40-80, ja niistä puolet (alkupuoli) on yhden hengen ja puolet (loppupuoli) kahden hengen huoneita.
 
 - Huonehinnat ovat :
