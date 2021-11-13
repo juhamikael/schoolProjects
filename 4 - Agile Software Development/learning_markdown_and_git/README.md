@@ -12,7 +12,7 @@ Each “tip” is stored in a separate file named
 - ...
 … where the name should describe the command or function described in the file - for example merge.md.
 
-Create 5 files per group member.
+### Create 5 files per group member.
 
 A new GitHub repo is created for this group work and permissions set for group members. For the instructor either
 
