@@ -1,4 +1,4 @@
-# Tehtävä: Git Workshop - Markdown
+# Assignment : Git Workshop - Markdown
 ## ILO
 
 Using Git for co-operation, applying a collaborative workflow. Figure out the added functionalities provided by Git hosting services.
