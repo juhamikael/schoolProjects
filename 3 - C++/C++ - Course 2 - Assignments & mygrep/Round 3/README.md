@@ -2,7 +2,7 @@
 
 ## Kolmannet viikkoharjoitukset
 
-1.  Kirjoita aliohjelma **sekunnit_ajaksi**, joka saa 1.
+**1.**  Kirjoita aliohjelma **sekunnit_ajaksi**, joka saa 1.
     parametrina sekunttien määrän vuorokauden alusta alkaen
     (kellonlyömästä 00:00:00 alkaen) ja palauttaa saman ajan tunteina,
     minuutteina ja sekunteina. Tee myös pääohjelma, jolla testaat em.
@@ -11,15 +11,12 @@
     sekuntia. Huomaa, että aliohjelmasta pitää palauttaa useampia
     tietoja; sovella tässä viittausparametreja. 
 
->  
->
-> Ajoesimerkki: 
->
->  
->
+#### 1. Ajoesimerkki: 
 > **10000 sekuntia on 2 tuntia 46 minuuttia 40 sekuntia. **
 
-2.  Tee 1 tehtävän aliohjelmalle käänteinen aliohjelma
+---
+
+**2.**  Tee 1 tehtävän aliohjelmalle käänteinen aliohjelma
     **aika_sekunneiksi**, joka saa parametreina tunnit, minuutit ja
     sekunnit vuorokauden alusta lukien ja palautaa paluuarvonaan
     parametreja vastaavan sekuntimäärän vuorokauden alusta lukien.
@@ -30,12 +27,12 @@
     palauttaman arvon. 2. aliohjelmakutsun palauttaman ajankohdan
     pitäisi olla sama kuin 1. aliohjelmakutsulle annettiin parametrina.
 
-> Ajoesimerkki:
->
-> **2 tuntia 46 minuuttia 40 sekuntia on 10000 sekuntia joka on
-> puolestaan 2 tuntia 46 minuuttia 40 sekuntia.**
+#### 2. Ajoesimerkki:
+> **2 tuntia 46 minuuttia 40 sekuntia on 10000 sekuntia joka on puolestaan 2 tuntia 46 minuuttia 40 sekuntia.**
 
-3.  Tee pääohjelma, josta löytyy seuraavat asiat / käsittelyt (tehtävä
+---
+
+**3.**  Tee pääohjelma, josta löytyy seuraavat asiat / käsittelyt (tehtävä
     saattaa vaikuttaa pitkältä mutta ratkaisu ei sitä ole koska jokaista
     kysyttyä asiaa kohden tehdään suurinpiirtein yksi ohjelmalause!
     Pääasiana on treenata C++ -tietueiden käyttöä):
