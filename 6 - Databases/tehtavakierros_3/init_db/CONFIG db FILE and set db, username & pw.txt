@@ -1,0 +1,4 @@
+CONFIG db FILE and set db, username & password
+CONFIG db FILE and set db, username & password
+CONFIG db FILE and set db, username & password
+CONFIG db FILE and set db, username & password
